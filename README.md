@@ -1,6 +1,16 @@
 # bash-bits
 
-## "Templating" in shell scripts
+## How to capture the output of a shell script to a variable in Unix?
+
+    $ b=$(pwd)
+    $ echo $b
+    /home/user1
+
+Soure: http://stackoverflow.com/a/10948354
+
+## How to "templating" in a shell scripts
+
+Rendering data into a template is easy.
 
     #! /bin/bash
     version="1.2.3"
@@ -10,7 +20,7 @@
     also reference this path $path
     EOF
 
-Source: 
+Source: http://serverfault.com/a/287690
 
 ## Quote text for URL for curl
 
